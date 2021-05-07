@@ -1,0 +1,26 @@
+body {
+    background-color: cornflowerblue;
+}
+#submit-button  {
+    background-color: peru;
+    color: linen;
+    box-sizing: content-box;
+    box-shadow: mediumturquoise;
+    size: 60px;
+}
+
+
+header {
+    color: blue;
+    font-size: xx-large;
+    block-size: 100fr;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+.form-item {
+
+    color: blue;
+    font-size: medium
+    block-size: 100fr;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
