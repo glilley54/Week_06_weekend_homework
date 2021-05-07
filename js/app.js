@@ -4,9 +4,10 @@ document.addEventListener('DOMContentLoaded', () => {
     newItemForm.addEventListener('submit', handleNewItemFormSubmit);
 
 
+    const deleteAllButton = document.querySelector('#delete-all');
+    deleteAllButton.addEventListener('click', handleDeleteAllClick);
 
-
-});
+})
 
 const handleNewItemFormSubmit = function (event) {
     event.preventDefault();
@@ -37,6 +38,10 @@ const createAlbumListItem = function (form) {
 
 
 
-
 return albumListItem;
+}
+
+const handleDeleteAllClick = function(event) {
+    const albumList = document.querySelector('#album-list');
+    albumList.innerHTML = ''
 }
