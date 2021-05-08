@@ -42,34 +42,47 @@
 
     <div>
         <h1>Please input you favourite album details and add them to the list below!</h1>
-    </div>
+    <div class="container">
     <form id= "new-item-form">
         <div id="form-wrapper">
         <div class="form-item">
-            <label for="title" class="primary">Album Title</label>
+            <label for="title" class="primary">Album Title:</label>
             <input type="text" id="title"required placeholder= "Album Title ..."/>
         </div>
+<br>
 
+<br>
         <div class="form-item">
-            <label for="artist" class="primary">Artist</label>
+            <label for="artist" class="primary">Artist:</label>
             <input type="text" id="artist"required placeholder= "Artist ..."/>
         </div>
+<br>
+
+<br>
 
         <div class="form-item">
-            <label for="genre" class="primary">Genre</label>
-            <input type="text" id="genre"required placeholder="Genre"/>
-        
+            <label for="genre" class="primary">Genre:</label>
+            <input type="text" id="genre"required placeholder="Genre"/>      
           </div>
+
+<br>
+
+<br>
         </div>
 <br>
 <br>
             <input id="submit-button"type="submit" value ="Add to Album List">
             </form>
+            
 
-            <button id="delete-all" >Delete All</button>
+       
 
             <h1>My Favourite Album List:</h1>
             <ul id=album-list></ul>
+
+            <br>
+            <br>
+            <button id="delete-all"type="submit"value >Delete All</button>
     
 </body>
 </html>
