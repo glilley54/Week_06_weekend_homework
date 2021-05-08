@@ -1,5 +1,6 @@
 body {
     background-color: lightsteelblue;
+
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
@@ -29,6 +30,7 @@ input[type=text], select {
 width: 100%;
 padding: 12px 20px;
 margin: 8px 0;
+text-align: center;
 display: inline-block;
 border: 1px solid #ccc;
 border-radius: 4px;
@@ -37,7 +39,7 @@ box-sizing: border-box;
       
 input[type=submit] {
 width: 100%;
-background-color: navy
+background-color: navy;
 color: white;
 font-size: larger;
 padding: 14px 20px;
@@ -50,6 +52,22 @@ cursor: pointer;
 input[type=submit]:hover {
 background-color: lightskyblue;
       }
+
+
+#delete-all {
+        width: 100%;
+        background-color: red;
+        color: white;
+        font-size: larger;
+        padding: 14px 20px;
+        margin: 8px 0;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+
+#delete-all button:hover: 
+        background-color: purple;
+}
       
 div {
 border-radius: 5px;
@@ -66,5 +84,9 @@ padding: 20px;
     margin: 0.5rem 0.5rem;
     padding: 0.5rem 0.8rem;
     border: 1px solid #20437c;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font size: 50px;
+    color: white;
     border-radius: 5%;
-    background: #ddeaff;
+    background: navy;
