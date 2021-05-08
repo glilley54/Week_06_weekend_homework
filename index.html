@@ -10,12 +10,14 @@
     
 </head>
 <body>
-    <header>Welcome to the favourite album app!</header>
+
+    <header>FAVOURITE ALBUM LIST APP</header>
+ 
 
 
 <br>
 <br>
-<div class="container">
+<div class="container1">
     <div class= "gallery">
 
             <figure class="gallery__item gallery__item--1">
@@ -40,8 +42,9 @@
     </div>
 </div>
 
-    <div>
-        <h1>Please input you favourite album details and add them to the list below!</h1>
+    
+        <div class="container2">
+        <h1>Input your favourite album details and add it to the list below:</h1>
     <div class="container">
     <form id= "new-item-form">
         <div id="form-wrapper">
@@ -65,24 +68,32 @@
             <input type="text" id="genre"required placeholder="Genre"/>      
           </div>
 
+       
+
 <br>
 
 <br>
         </div>
-<br>
-<br>
-            <input id="submit-button"type="submit" value ="Add to Album List">
-            </form>
-            
 
+      
+        
+        
+
+        <input  id="submit-button"type="submit" value ="Add to Album List">
+           
+            
+<br><br><br>
        
 
             <h1>My Favourite Album List:</h1>
+        
             <ul id=album-list></ul>
 
             <br>
             <br>
             <button id="delete-all"type="submit"value >Delete All</button>
-    
+        </div>
+    </div>
+    </form>
 </body>
 </html>
